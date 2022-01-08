@@ -1,6 +1,9 @@
 Flask Stripe Example
 ====================
 
+This app represents Flask Stripe integration example. There are two products in the app. You can purchase and see payments info into your Stripe dashboard. To test the payment proccess use test payment creds:
+card number 4242 4242 4242 4242 will always succeed and 4000 0000 0000 0002 will be always declined
+
 Launch
 --------------------
 1. `cd stripe_test`
