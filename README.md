@@ -13,8 +13,9 @@ Launch
 4. `pip install -r requiroments.txt`
 5. next you need to register a test app at the stripe.com
 6. add STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET to your local enviroment. Take the values from your stripe test app dashboard
-7. `flask run`
-8. `ngrok http [port]` 
+7. `export FLASK_APP=app.py`
+8. `flask run`
+9. `ngrok http [port]` (optional) 
     For some time your app will be accesable from the web via public link (true magic)
 
 
